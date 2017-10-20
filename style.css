@@ -1,0 +1,15 @@
+.notify-container {
+  width: 200px;
+  height: 100px;
+  border: 1px solid #ccc;
+  position: fixed;
+  top: 10px;
+  right: 5px;
+  display: none;
+}
+.notify-title {
+  border-bottom: 1px solid #ddd;
+}
+.notify-content {
+  padding-left: 5px;
+}
