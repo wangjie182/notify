@@ -1,11 +1,12 @@
 .notify-container {
-  width: 200px;
+  width: 300px;
   height: 100px;
   border: 1px solid #ccc;
+  border-radius: 4px;
   position: fixed;
   top: 10px;
   right: 5px;
-  display: none;
+  /* display: none; */
 }
 .notify-title {
   border-bottom: 1px solid #ddd;
