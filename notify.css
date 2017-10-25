@@ -1,16 +1,116 @@
 .notify-container {
-  width: 300px;
-  height: 100px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  position: fixed;
-  top: 10px;
-  right: 5px;
-  /* display: none; */
+    width: 240px;
+    height: 85px;
+    border:#83b3d9 1px solid;
+    background:#f2f7fb;
+    border-radius: 4px;
+    position: absolute;
+    top:0;
+    right:5px;
+  }
+ 
+  .notify-title,h1{
+    float:center;
+    border-bottom: 3px solid rgb(26, 55, 63);
+    text-align:center;
+    margin: 8px;
+    padding-top: 0;
+  }
+  .notify-content {
+    
+    padding-left: 5px;
+    text-align:center;
+    color:rgb(32, 3, 14);
+    
+       
+  }
+
+header{
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px; 
 }
-.notify-title {
-  border-bottom: 1px solid #ddd;
+nav{
+    line-height:30px;
+    background-color:#f1d6d6;
+    height:300px;
+    width:100px;
+    float: left;
+    padding:9px; 
+ }
+ a:link,a:visited
+ {
+ display:block;
+ font-weight:bold;
+ font-size:14px;
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+ color:#FFFF;
+ background-color:#ac2d49;
+ width:100px;
+ text-align:center;
+ text-decoration:none;
+ }
+
+ a:hover,a:active
+ {
+ background-color:#81394a;
+ }
+
+section{
+    width: 350px;
+    float:left;
+    padding:5px;
+    background-color:#f1d6d6;
 }
-.notify-content {
-  padding-left: 5px;
+
+footer{
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;   
 }
+
+#close{  
+  float:right;
+  width: 30px;
+  height: 25px;
+ }
+#close:hover{
+  background:url(sh.png) no-repeat 0px 0px;
+}
+
+#close:active{
+	background:url(sh.png) no-repeat 0px -25px;
+}
+
+#open{  
+  position: relative;
+  left:36%;
+  font-size:3px;
+  background-color:rgb(58, 107, 122); 
+ }
+
+  
+  body{
+    margin:20px;  
+    padding:5px;
+    background-color:rgb(226, 178, 178);   
+  }
+  .beijing{
+    width:500px;
+    height:400px;
+    position: absolute;
+    top:0;
+    right:50%;
+    background:url(可爱图片.jpg) no-repeat
+    
+  }
+  
+
+  p {
+    color:white;
+    font-size:20px;
+    text-align:center;
+    }
