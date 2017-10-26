@@ -5,7 +5,7 @@ const notify = new Notify({
   
 notify.show({
     autoHide: true,
-    timeout:30000
+    timeout:8000
   })
 
   
