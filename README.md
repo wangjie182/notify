@@ -1,6 +1,20 @@
 
 #  进入notisfy.html实现:
 
+<<<<<<< HEAD
+### 窗口弹出，简单实现弹出窗口关闭：鼠标放置于右上角后可出现×，然后点击图片有变换，立马关闭弹出窗口  
+
+1. 打开页面即弹出通知窗口  
+
+    ```js
+    const notify = new Notify({
+    title: '最新通知',
+    content: '新诗发布~'
+    })
+    ```  
+
+2. 放置鼠标于弹框通知右上角，出现× 
+=======
 ### 窗口弹出，简单实现弹出窗口关闭：鼠标放置于右上角后可出现×，然后点击图片有变换，立马关闭弹出窗口
 
 1. 关闭指定窗口
@@ -16,6 +30,7 @@
 
   
 2. 鼠标放置于右上角后可出现×，然后点击图片有变换
+>>>>>>> origin/master
 
    ```css
     #close:hover{
@@ -24,9 +39,36 @@
   
     #close:active{
 	background:url(sh.png) no-repeat 0px -25px;
+<<<<<<< HEAD
+    }     
+   ```  
+
+3. 定时：8秒后自动关闭  
+
+    ```js
+    notify.show({
+    autoHide: true,
+    timeout:8000
+    })
+    ```
+ 
+4. 关闭指定窗口  
+
+   ```js
+    $(document).ready(function(){
+  
+	$("#close").click(function(){
+		$("#box").hide();
+	})
+
+    })
+    ```    
+  
+=======
     }
     ```
 
+>>>>>>> origin/master
 ## 创建了网页链接  
 
 
